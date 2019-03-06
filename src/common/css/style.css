@@ -1,0 +1,219 @@
+@font-face {
+    font-family: "iconfont";
+    src:
+    url('../font/iconfont.ttf?t=1533369778873') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+    url('../font/iconfont.svg?t=1533369778873#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+    font-family: "iconfont", serif !important;
+}
+.icon-mima:before { content: "\e682"; }
+
+.icon-dengluming:before { content: "\e623"; }
+
+.icon-aboutus:before { content: "\e616"; }
+
+.icon-fanhui:before { content: "\e605"; }
+
+.icon-uptop:before { content: "\e614"; }
+
+.icon-xuesheng:before { content: "\e602"; }
+
+.icon-denglu:before { content: "\e601"; }
+
+.icon-caidan:before { content: "\e610"; }
+
+.icon-school:before { content: "\e609"; }
+
+.icon-shetuanhuodong:before { content: "\e639"; }
+
+.icon-kecheng:before { content: "\e61d"; }
+
+.icon-xuesheng1:before { content: "\e657"; }
+
+.icon-fengjing:before { content: "\e603"; }
+
+.icon-jiaoshi:before { content: "\e68b"; }
+
+.icon-index:before { content: "\e600"; }
+
+.icon-index1:before { content: "\e604"; }
+
+body{
+    margin:0;
+    -webkit-text-size-adjust: none;
+    background-color: lightgrey;
+    /*background: url("../../common/img/bg2.jpg") ;*/
+
+
+}
+html{
+    width: 1000px;
+}
+p,body,dd,dt,h1,h2,h3,h4,h5{
+    margin: 0;
+}
+ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+a,input{
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    -webkit-appearance: none;
+    color: slategrey;
+}
+
+#header{
+    width: 1000px;
+    margin-left: 200px;
+    height: 80px;
+    position: fixed;
+    font-size: 50px;
+    background-color: black;
+
+}
+.header-btn-right{
+    float: right;
+    margin-right: 60px;
+    margin-top: 10px;
+}
+.header-btn-left{
+    float: left;
+    margin-left: 60px;
+    margin-top: 10px;
+}
+.header-logo{
+    display: inline-block;
+    margin-left: 400px;
+   margin-top: 10px;
+}
+
+
+#menu{
+    display: none;
+    background: url("../img/menu1.jpg");
+    opacity: .7;
+    margin-left: 200px;
+    margin-top: 80px;
+   position: fixed;
+    height: 800px;
+    width: 300px;
+    overflow: hidden;
+    z-index: 1;
+   }
+
+.header-menu a{
+    display: block;
+    margin-top: 30px;
+    margin-left: 30px;
+    font-size: 20px;
+    border-bottom: 2px solid white ;
+    color: white;
+}
+.header-menu a:first-child{
+    padding-top: 16px;
+    border-top:2px solid white ;
+}
+.imgList{
+    display: inline-block;
+    width: 1000px;
+    height: auto;
+    margin-left: 200px;
+    margin-top: 80px;
+
+}
+.imgList ul{
+    display: inline-block;
+    width: 1000px;
+    left: 0;
+
+}
+.imgList li{
+    /*display: none;*/
+    display: inline-block;
+}
+/*.imgList li:first-child{*/
+    /*display: inline-block;*/
+/*}*/
+
+.imgList li img{
+    position: relative;
+    margin-left: 0;
+    width: 1000px;
+    height: 250px;
+    z-index: -1;
+}
+
+.imgList-span {
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    margin-top: -32px;
+    margin-left: 200px;
+    width: 600px;
+    height: 20px;
+
+}
+
+.active{
+    background: white;
+}
+.demo{
+    background-color: rgba(144,144,144,.9);
+}
+.imgList-span span{
+    display: inline-block;
+    width: 60px;
+    height: 20px;
+    margin-left: 40px;
+
+}
+.page-slight{
+    height: auto;
+    margin-left: 200px;
+    width: 1000px;
+    padding: 10px;
+}
+.list1{
+    display: inline-block;
+    margin-top: 5px;
+}
+.list1 li{
+    display: inline-block;
+    margin-right: 80px;
+    margin-left: 20px;
+    margin-bottom: 50px;
+    float: left;
+}
+.list1 img{
+    width:400px;
+    height: 300px;
+    border-radius: 20%;
+}
+.page-footer{
+    display: inline-block;
+    flex-direction: column;
+    border: 1px solid blueviolet;
+    margin-left: 200px;
+    height: 50px;
+    width: 1000px;
+    margin-top:0px;
+    margin-bottom: 0;
+    box-sizing: border-box;
+    background-color: black;
+    position: relative;
+}
+.footerSpan{
+    display: inline-block;
+    font-size: 20px;
+    margin-left: 450px;
+    margin-top: 14px;
+    color: white;
+}
